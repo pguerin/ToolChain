@@ -5,4 +5,4 @@ main.o : main.c
 	cc -c main.c
 
 clean :
-	rm edit main.o
+	rm hello main.o

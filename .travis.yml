@@ -1,4 +1,5 @@
 language: c
 script:
-- cd src/hello-world; make
+- cd src/hello-world; make clean; make; cd ../..
+- cd src/hello-world-cpp; make clean; make; cd ../..
 
