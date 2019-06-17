@@ -1,5 +1,7 @@
 language: c
 script:
-- cd src/hello-world; make clean; make; cd ../..
-- cd src/hello-world-cpp; make clean; make; cd ../..
-
+- cd src/hello-world; make; cd ../..
+- cd src/hello-world-cpp; make; cd ../..
+- cd src/hello-world-go; make; cd ../..
+- cd src/hello-world-obj-c; make; cd ../..
+- cd src/hello-world-swift; make; cd ../..
